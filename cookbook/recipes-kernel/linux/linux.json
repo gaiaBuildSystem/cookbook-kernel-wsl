@@ -1,0 +1,20 @@
+{
+    "name": "linux",
+    "type": "kernel",
+    "priority": 1,
+    "source": "https://github.com/microhobby/linus-tree",
+    "support": [
+        "linux/amd64"
+    ],
+    "ref": {
+        "linux/amd64": "e020e6c5c5c6167353265e155b6ebb2b8097557c"
+    },
+    "env": {
+        "KERNEL_LINUX_BUILD_MODULES": "false",
+        "KERNEL_LINUX_DEPLOY": "false"
+    },
+    "afterDeployRecipes": [
+        "movebinary.py"
+    ],
+    "merge": true
+}
