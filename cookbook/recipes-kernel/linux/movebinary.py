@@ -12,7 +12,7 @@ BUILD_PATH = os.getenv('BUILD_PATH')
 USER_PASSWD = os.getenv('USER_PASSWD')
 
 # get the actual script path
-_path = os.path.realpath(__file__)
+_path = os.path.dirname(os.path.realpath(__file__))
 
 LINUX_IMAGE = "vmlinuz"
 LINUX_ARCH = os.getenv('ARCH')
