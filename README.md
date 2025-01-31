@@ -12,22 +12,22 @@ Welcome to the Cookbook Kernel WSL 2 project! This README provides an overview o
 
 ## Introduction
 
-Cookbook Kernel WSL 2 has recipes to build and generate custom Linux kernels for Windows Subsystem for Linux 2 (WSL 2) using Quecto project.
+Cookbook Kernel WSL 2 has recipes to build and generate custom Linux kernels for Windows Subsystem for Linux 2 (WSL 2) using Gaia project.
 
 ## Configuration
 
 To get started with Cookbook Kernel WSL, follow these steps:
 
-1. Clone the Quecto Gaia repository:
+1. Clone the Gaia core repository:
 
     ```sh
-    git clone https://github.com/quectoproject/gaia.git
+    git clone https://github.com/gaiaBuildSystem/gaia.git
     ```
 
 2. Clone the Cookbook Kernel WSL repository:
 
     ```sh
-    git clone https://github.com/quectoproject/cookbook-kernel-wsl.git
+    git clone https://github.com/gaiaBuildSystem/cookbook-kernel-wsl.git
     ```
 
 3. Navigate to the Gaia folder and run the dependency script:
@@ -41,11 +41,11 @@ With this you should have all the dependencies installed and ready to build the 
 
 ## Usage
 
-1. To build the kernel navigate to the root folder where you clone the Quecto Gaia repo and the Cookbook Kernel WSL repo and run the following command:
+1. To build the kernel navigate to the root folder where you clone the Gaia repo and the Cookbook Kernel WSL repo and run the following command:
 
     ```sh
     ./gaia/scripts/bitcook/gaia.ts \
-        --buildPath /home/$USER/quecto \
+        --buildPath /home/$USER/workdir \
         --distro ./cookbook-kernel-wsl/distro-kernel-x86-wsl2.json
     ```
 
