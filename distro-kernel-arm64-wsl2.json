@@ -1,0 +1,24 @@
+{
+    "name": "microhobby-arm64-wsl2",
+    "machine": "wsl-arm64",
+    "version": {
+        "major": 6,
+        "minor": 6,
+        "patch": 0,
+        "build": 0
+    },
+    "arch": "linux/arm64",
+    "maxImgSize": 0,
+    "searchForRecipesOn": [
+        "../gaia/cookbook",
+        "./cookbook"
+    ],
+    "useInitramfs": false,
+    "excludeRecipes": [
+        "recipes-bsp",
+        "recipes-common",
+        "recipes-debian",
+        "recipes-dev-tools",
+        "recipes-init"
+    ]
+}
