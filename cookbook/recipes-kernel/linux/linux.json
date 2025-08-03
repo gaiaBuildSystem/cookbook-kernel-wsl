@@ -4,10 +4,12 @@
     "priority": 1,
     "source": "https://github.com/microhobby/linus-tree",
     "support": [
-        "linux/amd64"
+        "linux/amd64",
+        "linux/arm64"
     ],
     "ref": {
-        "linux/amd64": "99284603658c634282bd15e07cda93c629524cff"
+        "linux/amd64": "29041d364da0cceb09283da594d08d8c8bc0bc70",
+        "linux/arm64": "29041d364da0cceb09283da594d08d8c8bc0bc70"
     },
     "env": {
         "KERNEL_LINUX_BUILD_MODULES": "false",

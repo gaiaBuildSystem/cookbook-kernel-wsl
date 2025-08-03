@@ -3,7 +3,7 @@
     "machine": "wsl-arm64",
     "version": {
         "major": 6,
-        "minor": 6,
+        "minor": 16,
         "patch": 0,
         "build": 0
     },
