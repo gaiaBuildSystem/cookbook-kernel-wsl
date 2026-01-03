@@ -1,5 +1,12 @@
 # Cookbook Kernel WSL 2
 
+<p align="center">
+    <img
+        src=".assets/cover.png"
+        alt="Logo"
+        width="400" />
+</p>
+
 Welcome to the Cookbook Kernel WSL 2 project! This README provides an overview of the project, setup instructions, and usage guidelines.
 
 ## Table of Contents
