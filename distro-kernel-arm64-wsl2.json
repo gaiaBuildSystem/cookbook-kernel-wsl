@@ -20,5 +20,6 @@
         "recipes-debian",
         "recipes-dev-tools",
         "recipes-init"
-    ]
+    ],
+    "$schema": "./schema/distro.json"
 }
