@@ -2,8 +2,8 @@
     "name": "microhobby-x86-wsl2",
     "machine": "wsl-amd64",
     "version": {
-        "major": 6,
-        "minor": 16,
+        "major": 7,
+        "minor": 1,
         "patch": 0,
         "build": 0
     },

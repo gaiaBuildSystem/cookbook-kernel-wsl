@@ -2,8 +2,8 @@
     "name": "microhobby-arm64-wsl2",
     "machine": "wsl-arm64",
     "version": {
-        "major": 6,
-        "minor": 16,
+        "major": 7,
+        "minor": 1,
         "patch": 0,
         "build": 0
     },
