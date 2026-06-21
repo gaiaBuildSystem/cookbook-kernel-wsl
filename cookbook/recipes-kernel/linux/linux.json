@@ -8,8 +8,8 @@
         "linux/arm64"
     ],
     "ref": {
-        "linux/amd64": "42a9a2b1be6e4d74b584ff33ccc9a1d546037164",
-        "linux/arm64": "42a9a2b1be6e4d74b584ff33ccc9a1d546037164"
+        "linux/amd64": "d031de1b2cd9286509d17fb8184ba8247e93ae7f",
+        "linux/arm64": "d031de1b2cd9286509d17fb8184ba8247e93ae7f"
     },
     "env": {
         "KERNEL_LINUX_BUILD_MODULES": "false",
